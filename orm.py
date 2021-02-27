@@ -11,7 +11,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 # 映射基类
 Base = declarative_base()
-engine = create_engine('mysql+mysqldb://root:20060911gyj@localhost:3306/ris?charset=utf8',
+engine = create_engine('mysql+mysqldb://root:密码@localhost:3306/ris?charset=utf8',
                        echo=True,
                        pool_size=10,
                        pool_recycle=3600)
